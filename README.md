@@ -73,6 +73,10 @@ refs_csv <- read_csv("references.csv")
 # SQLite access
 con <- dbConnect(SQLite(), "cultural_transmission.db")
 refs_db <- tbl(con, "references") %>% collect()
+```
+
+#### Reference Managers:
+1. 
 
 
 
